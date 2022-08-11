@@ -1,0 +1,27 @@
+Task Answer
+
+Q1/Write a method that will remove any given character from a String?
+Ans Q1/
+str = "Haider Sadiq Al-Aasam"
+print(str.replace('a', ''))
+
+
+Q2/Write a program to find all prime numbers up to a given range of numbers?
+Ans Q2/
+
+numl=int(input("Enter lower value:"))
+numu=int(input("Enter upper value:"))
+for i in range(numl,numu+1):
+ for j in range (2,i):
+  if (i%j==0):
+   break
+ else:
+  print (i)
+
+
+
+Q3/write a function that count how many the given character repeated in a given string?
+Ans Q1/
+
+str = "Haider Sadiq M. Ali"
+print(str.count('a'))
